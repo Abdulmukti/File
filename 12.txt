@@ -1,0 +1,28 @@
+Help Dokumentasi 
+sifat - sifat
+- availability
+- accuracy
+
+jenis help
+
+paper based
+kelebihan
+- pengguna dapat 
+kekurangan
+- sulit mendeskripsikan sesuatu yang bergerak
+- sulit menyesuaikan antara sesuatu yang dibaca
+  dengan kenyataan sebenarnya di dalam sistem
+- pengguna akan kesulitan membaca saat menjalankan sistem,
+  karena kurang praktis
+
+computer based
+- command prompt
+- online documentation
+- context sensitive help
+
+merancang help
+- bagaimana system help ditampilkan?
+bagaimana bantuan akan dapat dilihat oleh user.
+Dalam system window akan ditampilkan dalam window yang baru.
+Dalam sistem lain mungkin dalam layar yang oenuh atau bagian dari layar.
+Alternatif lain dapat berbentuk pop-up box atau tingkat command line.

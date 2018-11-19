@@ -1,0 +1,28 @@
+dataset Ini adalah kumpulan data penjualan buku terbaik, yang diambil sebagaian 
+dari kumpulan data (lebih dari 16.000 buku)
+yang dibuat dengan mengekstraksi data dari paytm.com, 
+toko eCommerce terkemuka di India.
+
+Brand 
+breadcrumbs
+desc
+gambar
+nama
+penjual lainnya
+spesifikasi
+id uniq
+url
+amtsave
+negara
+diskon
+domain
+gallery
+insertedon
+list harga
+model
+payment method supported
+kode product
+harga jual
+type
+weight
+berat

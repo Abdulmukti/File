@@ -1,0 +1,15 @@
+Apabila dalam satu fitur itu isinya sama maka
+bisa di hapus karena tidak mencirikan data tersebut.
+clustering
+akan mengelompokan data berdasarkan fitur A
+
+
+Ex = {E(xi - x)^2}/(n-1)
+-1 <= r <= 1
+r = 0 : independent
+correlation positive : X naik maka Y naik, atau sebaliknya
+correlation negative : X naik maka Y turun, atau sebaliknya
+ketika correlation nya ada di tengah tengah maka bisa di hilangkan
+atau dipertahankan.
+apabila dipertahankan : komputasinya nambah
+apabila dihilangkan : akan ada informasi yang hilang

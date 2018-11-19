@@ -1,0 +1,56 @@
+Format Penulisan KD
+1. nama arus data
+Nama KD == Nama arus data
+- berdasarkan arus data mengalir
+2. alias
+
+3. bentuk data
+- Dokumen 
+- formulir
+
+tabel ke sistem
+- variabel
+- parameter
+- field
+
+4. arus data
+
+5. penjelasan
+
+6. periode
+
+7. volume
+seberapa besar data
+
+8. struktur data
+simbol dalam struktur data
+= terdiri dari, mendifinisikan, diuraikan
++ dan
+() menunjukan elemen yang bersifat pilihan(opsional). elmen - elemen yang bersifat 
+   pilihan ini bisa dikosongkan pada layar masukan.
+{} menenujukan elemen repetive (perulangan)
+[] menunjukan salah dari satu
+
+Kamus data dokumen masukan formulir permintaan pesanan
+
+nama arus data : Purchase Order
+Alias : PO
+Bentuk data : Cetakan Manual
+Arus Data : Customer - proses 1.1
+	    Proses 1.1 - Arsip PO
+Penjelasan : Untuk pesanan penjualan Barang
+Periode    : Setiap terjadi pesanan penjualan 
+volume     : rata rata perhari 10 pesanan penjualan
+stuktur data : No_PO+Tgl_PO+Nama_Customer+Alamat_Customer+Status_Kond_Brg
+No_PO *Terdiri dari 9 digit*
+Tgl_PO =Tgl+Bulan+Tahun
+Status_Kond_Brg = [Biasa | Segera | Mendeak]
+isi = 1{Nama_Brg+Merk+Juml_Pesan}10
+
+salah satu kriteria desain : 
+
+order slip isinya hanya 3
+TH + Isi + Footer
+TH = NOP + NP + Almt + 
+Isi = 1{nama_brg+no_brg+jml_brg+hrg+jml}10
+ft = disl + pjk 4

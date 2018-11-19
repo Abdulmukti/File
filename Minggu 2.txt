@@ -1,0 +1,31 @@
+Analisis data digunakan untuk bisnis
+Tahap - Tahap
+- Mengumpulkan Data
+- Mengenal Data
+  - Objek data dan macam" atribut
+  - Statistik diskripsi data
+  - Visualisasi data
+  - Mengukur kesamaan dan ketidaksamaan data
+- Persiapan
+  Akan ada transformasi data.
+  Seleksi Fitur - untuk menyeleksi ciri ciri fitur yang memiliki korelasi,
+  kemudian di seleksi untuk efisiensi komputasi.
+
+data object - menyatakan suatu entitas
+atribut - menyatakan karakter atau fitur dari object data
+ordina - nilai dari suatu kolom yang menentukan tingkatan
+Data Klasifikasi - memiliki LABEL
+Data Clustering - 
+
+TUGAS
+1. Mengambil data dari kaggle.com dan UCI
+2. Mendiskripsikan data
+	- Tipe Data
+	- Jumlah Fitur
+	- Jumlah Baris
+	- Termasuk data klasifikasi atau clustering
+3. Menganalisis Data
+	- Jika ada data pada fitur/kolom tertentu numerik maka
+	  tampilkan distribusi data grafik distribusinya
+	- Ada data outlier atau tidak (dengan boxplot pada masing masing kolom/fitur)
+	- Data aneh

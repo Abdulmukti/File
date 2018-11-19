@@ -1,0 +1,66 @@
+P(tanggungan=sedikit|penggunaan=rendah) = jumlahtanggungan=sedikit dan penggunaan=rendah / jumlahpenggunaan=rendah
+P(tanggungan=sedikit|penggunaan=rendah) = 2 / 10
+P(tanggungan=sedikit|penggunaan=rendah) = 0.200
+
+
+P(tanggungan=sedang|penggunaan=rendah) = jumlahtanggungan=sedang dan penggunaan=rendah / jumlahpenggunaan=rendah
+P(tanggungan=sedang|penggunaan=rendah) = 5 / 10
+P(tanggungan=sedang|penggunaan=rendah) = 0.500
+
+
+P(tanggungan=banyak|penggunaan=rendah) = jumlahtanggungan=banyak dan penggunaan=rendah / jumlahpenggunaan=rendah
+P(tanggungan=banyak|penggunaan=rendah) = 3 / 10
+P(tanggungan=banyak|penggunaan=rendah) = 0.300
+
+
+P(tanggungan=sedikit|penggunaan=sedang) = jumlahtanggungan=sedikit dan penggunaan=sedang / jumlahpenggunaan=sedang
+P(tanggungan=sedikit|penggunaan=sedang) = 6 / 20
+P(tanggungan=sedikit|penggunaan=sedang) = 0.300
+
+
+P(tanggungan=sedang|penggunaan=sedang) = jumlahtanggungan=sedang dan penggunaan=sedang / jumlahpenggunaan=sedang
+P(tanggungan=sedang|penggunaan=sedang) = 8 / 20
+P(tanggungan=sedang|penggunaan=sedang) = 0.400
+
+
+P(tanggungan=banyak|penggunaan=sedang) = jumlahtanggungan=banyak dan penggunaan=sedang / jumlahpenggunaan=sedang
+P(tanggungan=banyak|penggunaan=sedang) = 6 / 20
+P(tanggungan=banyak|penggunaan=sedang) = 0.300
+
+
+P(tanggungan=sedikit|penggunaan=tinggi) = jumlahtanggungan=sedikit dan penggunaan=tinggi / jumlahpenggunaan=tinggi
+P(tanggungan=sedikit|penggunaan=tinggi) = 0 / 28
+P(tanggungan=sedikit|penggunaan=tinggi) = 0
+karena dalam kelas penggunaan=tinggi ini terdapat data yang bernilai 0(nol) maka diperhitungkan kembali dengan Laplace Correction sebagai berikut :
+P(tanggungan=sedikit|penggunaan=tinggi) = ( 0 + 1 ) / ( 28 + 3 ) 
+P(tanggungan=sedikit|penggunaan=tinggi) = 1 / 31
+P(tanggungan=sedikit|penggunaan=tinggi) = 0.032
+
+
+P(tanggungan=sedang|penggunaan=tinggi) = jumlahtanggungan=sedang dan penggunaan=tinggi / jumlahpenggunaan=tinggi
+P(tanggungan=sedang|penggunaan=tinggi) = 10 / 28
+P(tanggungan=sedang|penggunaan=tinggi) = 0.357
+karena dalam kelas penggunaan=tinggi ini terdapat data yang bernilai 0(nol) maka diperhitungkan kembali dengan Laplace Correction sebagai berikut :
+P(tanggungan=sedang|penggunaan=tinggi) = ( 10 + 1 ) / ( 28 + 3 ) 
+P(tanggungan=sedang|penggunaan=tinggi) = 11 / 31
+P(tanggungan=sedang|penggunaan=tinggi) = 0.354
+
+
+P(tanggungan=banyak|penggunaan=tinggi) = jumlahtanggungan=banyak dan penggunaan=tinggi / jumlahpenggunaan=tinggi
+P(tanggungan=banyak|penggunaan=tinggi) = 18 / 28
+P(tanggungan=banyak|penggunaan=tinggi) = 0.642
+karena dalam kelas penggunaan=tinggi ini terdapat data yang bernilai 0(nol) maka diperhitungkan kembali dengan Laplace Correction sebagai berikut :
+P(tanggungan=banyak|penggunaan=tinggi) = ( 18 + 1 ) / ( 28 + 3 ) 
+P(tanggungan=banyak|penggunaan=tinggi) = 19 / 31
+P(tanggungan=banyak|penggunaan=tinggi) = 0.612
+
+P(smoke=yes) = jumlah smoke=yes/(jumlah smoke = yes + jumlah smoke = no)
+	     = 274/(274+1064)
+	     = 0,2047
+P(smoke=no) = jumlah smoke=no/(jumlah smoke = yes + jumlah smoke = no)
+	    = 1064/(274+1064)
+	    = 0,79521
+P(children = 0 | smoke = yes ) = jumlahchildren = 0 dan smoke = yes/ jumlah smoke = yes
+	   		       = 115/274
+			       = 0.4197
+P
